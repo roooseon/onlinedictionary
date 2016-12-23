@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Dictionary</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/dict.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="scripts/dict.js" type="text/javascript"></script>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    </head>
+    <body>
+        <h1>WAP Online Dictionary</h1>
+        <div id="searchBar"> 
+            <!--            <form action="dictServlet" method="POST" >-->
+            Term: <input type="text" id="search" name= "searchkey" placeholder="Search">
+            <button id="btnsearch"> Lookup</button>
+            <span id="alert"></span>
+            <!--</form>-->
+        </div>
+        
+
+        <div id = "result">
+            <div id="searchinput"></div>
+            <span id="busy"><img id="loader" src="images/balls.gif" alt="loading" hidden="hidden"></span>
+            <ul id="content"></ul>
+
+        </div>
+    </body>
+</html>

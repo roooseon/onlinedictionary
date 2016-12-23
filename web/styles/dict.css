@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 19, 2016, 1:24:55 PM
+    Author     : 985368
+*/
+
+body{
+    background-color: #B9B9B9;
+    font-family: arial;
+    margin: auto;
+    /*    background-image: url("../images/book.jpg");*/
+    background-repeat: no-repeat;
+    color: white;
+
+}
+h1{
+    text-align: center;
+    background-color: #ADAA8C;
+    padding: 10px;
+    margin: 0px;
+    font-size: 40px;
+}
+
+#searchBar{
+    text-align: center;
+    float-left: auto;
+    float-right: auto;
+    background-color: #FFFFE0;
+    padding: 10px;
+    margin: 0px;    
+    font-size: 20px;
+    color:black;
+    /*    vertical-align: middle;     */
+}
+
+#busy{
+    text-align: center;
+}
+#search{
+    margin-left: 10px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+#btnsearch{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#searchinput{
+    font-weight: bold;
+    /*    text-align: center;*/
+    color: #e76049;
+    font-size: 25px;
+    padding: 8px;
+    margin-left: 30px;
+}
+
+li{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.warning{
+    color: red;
+    font-weight: bold;  
+
+}
+
+#alert{
+    display: inline;
+    position: absolute;
+    color: red;
+    font-weight: bold; 
+    line-height: 35px;
+}
+
+#result{
+    margin: 50px;
+    margin-top: 20px;
+}
+
+#busy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
